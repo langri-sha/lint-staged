@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "Publish from langri-sha/lint-staged, which now owns this package and its history",
+  "packageName": "@langri-sha/lint-staged",
+  "email": "filip.dupanovic@gmail.com",
+  "dependentChangeType": "patch"
+}
