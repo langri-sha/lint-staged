@@ -27,7 +27,7 @@ const project = new Project({
       '@langri-sha/eslint-config@0.9.17',
       '@langri-sha/prettier@0.4.9',
       '@langri-sha/projen-project@*',
-      '@langri-sha/tsconfig@1.0.1',
+      '@langri-sha/tsconfig@1.0.2',
     ],
     peerDeps: ['eslint@^10.4.0', 'lint-staged@^17.0.0', 'prettier@^3.0.0'],
     peerDependenciesMeta: {

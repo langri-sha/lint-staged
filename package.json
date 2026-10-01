@@ -36,7 +36,7 @@
     "@langri-sha/eslint-config": "0.9.17",
     "@langri-sha/prettier": "0.4.9",
     "@langri-sha/projen-project": "0.31.2",
-    "@langri-sha/tsconfig": "1.0.1",
+    "@langri-sha/tsconfig": "1.0.2",
     "beachball": "2.66.0",
     "eslint": "10.11.0",
     "husky": "9.1.7",
