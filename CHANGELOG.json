@@ -2,6 +2,21 @@
   "name": "@langri-sha/lint-staged",
   "entries": [
     {
+      "date": "Thu, 01 Oct 2026 15:51:16 GMT",
+      "version": "0.9.8",
+      "tag": "@langri-sha/lint-staged_v0.9.8",
+      "comments": {
+        "patch": [
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/lint-staged",
+            "commit": "c3c862d9358775b5f7127c56df3c33de930d0199",
+            "comment": "Publish from langri-sha/lint-staged, which now owns this package and its history"
+          }
+        ]
+      }
+    },
+    {
       "date": "Tue, 04 Aug 2026 04:27:48 GMT",
       "version": "0.9.7",
       "tag": "@langri-sha/lint-staged_v0.9.7",

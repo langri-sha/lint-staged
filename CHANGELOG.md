@@ -1,8 +1,16 @@
 # Change Log - @langri-sha/lint-staged
 
-<!-- This log was last generated on Tue, 04 Aug 2026 04:27:48 GMT and should not be manually modified. -->
+<!-- This log was last generated on Thu, 01 Oct 2026 15:51:16 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 0.9.8
+
+Thu, 01 Oct 2026 15:51:16 GMT
+
+### Patches
+
+- Publish from langri-sha/lint-staged, which now owns this package and its history (filip.dupanovic@gmail.com)
 
 ## 0.9.7
 
