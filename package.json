@@ -33,8 +33,8 @@
     "renovate": "pnpm exec projen renovate"
   },
   "devDependencies": {
-    "@langri-sha/eslint-config": "0.9.16",
-    "@langri-sha/prettier": "0.4.8",
+    "@langri-sha/eslint-config": "0.9.17",
+    "@langri-sha/prettier": "0.4.9",
     "@langri-sha/projen-project": "0.31.2",
     "@langri-sha/tsconfig": "1.0.1",
     "beachball": "2.66.0",
