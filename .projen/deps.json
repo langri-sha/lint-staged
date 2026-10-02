@@ -2,12 +2,12 @@
   "dependencies": [
     {
       "name": "@langri-sha/eslint-config",
-      "version": "0.9.17",
+      "version": "0.9.18",
       "type": "build"
     },
     {
       "name": "@langri-sha/prettier",
-      "version": "0.4.9",
+      "version": "0.4.10",
       "type": "build"
     },
     {
