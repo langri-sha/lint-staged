@@ -25,8 +25,9 @@ export default {
 
 Configure Husky:
 
-```
-echo "npm -q lint-staged" > .husky-precommit
+```sh
+npx husky init
+echo "lint-staged" > .husky/pre-commit
 ```
 
 [`lint-staged`]: https://github.com/lint-staged/lint-staged
