@@ -1,8 +1,21 @@
 # Change Log - @langri-sha/lint-staged
 
-<!-- This log was last generated on Thu, 01 Oct 2026 15:51:16 GMT and should not be manually modified. -->
+<!-- This log was last generated on Fri, 02 Oct 2026 20:05:35 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 0.9.9
+
+Fri, 02 Oct 2026 20:05:35 GMT
+
+### Patches
+
+- chore(deps): update langri-sha projen toolchain
+- fix(deps): update dependency pnpm to v12.8.0
+- chore(deps): update dependency @langri-sha/tsconfig to v1.0.2
+- fix(deps): update dependency pnpm to v12.8.1
+- chore(deps): update dependency @langri-sha/tsconfig to v1.1.0
+- Fix the readme's Husky setup step (filip.dupanovic@gmail.com)
 
 ## 0.9.8
 

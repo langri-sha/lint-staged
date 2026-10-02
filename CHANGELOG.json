@@ -2,6 +2,51 @@
   "name": "@langri-sha/lint-staged",
   "entries": [
     {
+      "date": "Fri, 02 Oct 2026 20:05:35 GMT",
+      "version": "0.9.9",
+      "tag": "@langri-sha/lint-staged_v0.9.9",
+      "comments": {
+        "patch": [
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/lint-staged",
+            "commit": "67bf9bc478dca1bd4c374c0006ab1b49bc458acb",
+            "comment": "chore(deps): update langri-sha projen toolchain"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/lint-staged",
+            "commit": "67bf9bc478dca1bd4c374c0006ab1b49bc458acb",
+            "comment": "fix(deps): update dependency pnpm to v12.8.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/lint-staged",
+            "commit": "67bf9bc478dca1bd4c374c0006ab1b49bc458acb",
+            "comment": "chore(deps): update dependency @langri-sha/tsconfig to v1.0.2"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/lint-staged",
+            "commit": "67bf9bc478dca1bd4c374c0006ab1b49bc458acb",
+            "comment": "fix(deps): update dependency pnpm to v12.8.1"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/lint-staged",
+            "commit": "67bf9bc478dca1bd4c374c0006ab1b49bc458acb",
+            "comment": "chore(deps): update dependency @langri-sha/tsconfig to v1.1.0"
+          },
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/lint-staged",
+            "commit": "67bf9bc478dca1bd4c374c0006ab1b49bc458acb",
+            "comment": "Fix the readme's Husky setup step"
+          }
+        ]
+      }
+    },
+    {
       "date": "Thu, 01 Oct 2026 15:51:16 GMT",
       "version": "0.9.8",
       "tag": "@langri-sha/lint-staged_v0.9.8",
