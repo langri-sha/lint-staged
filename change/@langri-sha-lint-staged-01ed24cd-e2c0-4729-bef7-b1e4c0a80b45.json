@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "Fix the readme's Husky setup step",
+  "packageName": "@langri-sha/lint-staged",
+  "email": "filip.dupanovic@gmail.com",
+  "dependentChangeType": "patch"
+}
