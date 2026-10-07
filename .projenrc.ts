@@ -24,10 +24,10 @@ const project = new Project({
     type: 'module',
 
     devDeps: [
-      '@langri-sha/eslint-config@0.9.18',
-      '@langri-sha/prettier@0.4.10',
+      '@langri-sha/eslint-config@0.9.19',
+      '@langri-sha/prettier@0.4.11',
       '@langri-sha/projen-project@*',
-      '@langri-sha/tsconfig@1.1.0',
+      '@langri-sha/tsconfig@1.1.1',
     ],
     peerDeps: ['eslint@^10.4.0', 'lint-staged@^17.0.0', 'prettier@^3.0.0'],
     peerDependenciesMeta: {
