@@ -1,8 +1,20 @@
 # Change Log - @langri-sha/lint-staged
 
-<!-- This log was last generated on Fri, 02 Oct 2026 20:05:35 GMT and should not be manually modified. -->
+<!-- This log was last generated on Wed, 07 Oct 2026 10:15:38 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 0.9.10
+
+Wed, 07 Oct 2026 10:15:38 GMT
+
+### Patches
+
+- chore(deps): update dependency @langri-sha/projen-project to v0.32.0
+- fix(deps): update dependency pnpm to v12.8.2
+- fix(deps): update dependency pnpm to v12.9.0
+- fix(deps): update dependency pnpm to v12.9.1
+- chore(deps): update langri-sha projen toolchain
 
 ## 0.9.9
 

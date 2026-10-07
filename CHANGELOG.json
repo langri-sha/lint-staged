@@ -2,6 +2,45 @@
   "name": "@langri-sha/lint-staged",
   "entries": [
     {
+      "date": "Wed, 07 Oct 2026 10:15:38 GMT",
+      "version": "0.9.10",
+      "tag": "@langri-sha/lint-staged_v0.9.10",
+      "comments": {
+        "patch": [
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/lint-staged",
+            "commit": "d437dbc9aceed96830bb5eb732c3d73c36a8a076",
+            "comment": "chore(deps): update dependency @langri-sha/projen-project to v0.32.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/lint-staged",
+            "commit": "d437dbc9aceed96830bb5eb732c3d73c36a8a076",
+            "comment": "fix(deps): update dependency pnpm to v12.8.2"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/lint-staged",
+            "commit": "d437dbc9aceed96830bb5eb732c3d73c36a8a076",
+            "comment": "fix(deps): update dependency pnpm to v12.9.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/lint-staged",
+            "commit": "d437dbc9aceed96830bb5eb732c3d73c36a8a076",
+            "comment": "fix(deps): update dependency pnpm to v12.9.1"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/lint-staged",
+            "commit": "d437dbc9aceed96830bb5eb732c3d73c36a8a076",
+            "comment": "chore(deps): update langri-sha projen toolchain"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 02 Oct 2026 20:05:35 GMT",
       "version": "0.9.9",
       "tag": "@langri-sha/lint-staged_v0.9.9",
