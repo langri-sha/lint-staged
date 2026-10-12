@@ -23,10 +23,11 @@ pnpm install
 pnpm projen                             # re-synthesize from .projenrc.ts
 pnpm tsc --build .                      # typecheck
 pnpm eslint . && pnpm prettier --check .
+node --test test/*.test.js               # regression tests
 pnpm change                             # write a change file
 ```
 
-There are no tests.
+Regression tests use the Node.js test runner and run in the Workspace workflow.
 
 ## Its own config
 

@@ -83,6 +83,7 @@ const project = new Project({
       '/AGENTS.md',
       '/CODEOWNERS',
       '/change/',
+      '/test/',
     ],
   },
   pnpmWorkspace: {

@@ -22,3 +22,20 @@ jobs:
       projen: true
       typescript: true
     secrets: inherit
+
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: Setup PNPM
+        uses: langri-sha/github/actions/pnpm@v0.23.0
+
+      - name: Test
+        run: node --test test/*.test.js
