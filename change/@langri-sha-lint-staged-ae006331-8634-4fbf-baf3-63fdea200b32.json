@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "Skip ESLint when every staged file is ignored",
+  "packageName": "@langri-sha/lint-staged",
+  "email": "filip.dupanovic@gmail.com",
+  "dependentChangeType": "patch"
+}

@@ -1,7 +1,8 @@
 import assert from 'node:assert/strict'
-import { mkdtemp, rm, writeFile } from 'node:fs/promises'
+import { execSync } from 'node:child_process'
+import { mkdtemp, readFile, rm, writeFile } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
-import { join } from 'node:path'
+import { delimiter, join } from 'node:path'
 import { after, before, test } from 'node:test'
 
 import config from '../src/index.js'
@@ -36,4 +37,29 @@ test('ESLint fixes active staged files with quoted paths', async () => {
 
 test('ESLint excludes ignored paths from mixed staged files', async () => {
   assert.equal(await eslintTask([ignored, active]), `eslint --fix "${active}"`)
+})
+
+test('ESLint skips an empty staged file list', async () => {
+  assert.deepEqual(await eslintTask([]), [])
+})
+
+test('ESLint skips ignored staged files without fixing unstaged files', async () => {
+  const unstaged = join(directory, 'unstaged.js')
+  const contents = 'let value = 1\nconsole.log(value)\n'
+  await writeFile(unstaged, contents)
+
+  const tasks = await eslintTask([ignored])
+  for (const command of [tasks].flat()) {
+    execSync(command, {
+      env: {
+        ...process.env,
+        PATH: [join(originalCwd, 'node_modules/.bin'), process.env.PATH].join(
+          delimiter,
+        ),
+      },
+    })
+  }
+
+  assert.equal(await readFile(unstaged, 'utf8'), contents)
+  assert.deepEqual(tasks, [])
 })
