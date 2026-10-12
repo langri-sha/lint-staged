@@ -16,7 +16,7 @@ export default {
         .filter(([, isIgnored]) => !isIgnored)
         .map(([file]) => `"${file}"`)
 
-      return `eslint --fix ${filtered.join(' ')}`
+      return filtered.length > 0 ? `eslint --fix ${filtered.join(' ')}` : []
     } catch {
       return ''
     }
