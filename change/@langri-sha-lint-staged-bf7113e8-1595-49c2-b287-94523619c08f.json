@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "Use Project.presetPackages for the release age exemption",
-  "packageName": "@langri-sha/lint-staged",
-  "email": "filip.dupanovic@gmail.com",
-  "dependentChangeType": "patch"
-}

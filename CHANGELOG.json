@@ -2,6 +2,83 @@
   "name": "@langri-sha/lint-staged",
   "entries": [
     {
+      "date": "Mon, 12 Oct 2026 18:34:50 GMT",
+      "version": "0.9.11",
+      "tag": "@langri-sha/lint-staged_v0.9.11",
+      "comments": {
+        "patch": [
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/lint-staged",
+            "commit": "64e19ab0477b7d085fdd9c9e75e0f814ba5a34c1",
+            "comment": "chore(deps): update dependency @langri-sha/projen-project to v0.36.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/lint-staged",
+            "commit": "64e19ab0477b7d085fdd9c9e75e0f814ba5a34c1",
+            "comment": "fix(deps): update dependency pnpm to v12.11.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/lint-staged",
+            "commit": "64e19ab0477b7d085fdd9c9e75e0f814ba5a34c1",
+            "comment": "fix(deps): update dependency pnpm to v12.10.1"
+          },
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/lint-staged",
+            "commit": "64e19ab0477b7d085fdd9c9e75e0f814ba5a34c1",
+            "comment": "Skip ESLint when every staged file is ignored"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/lint-staged",
+            "commit": "64e19ab0477b7d085fdd9c9e75e0f814ba5a34c1",
+            "comment": "fix(deps): update dependency pnpm to v12.11.1"
+          },
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/lint-staged",
+            "commit": "64e19ab0477b7d085fdd9c9e75e0f814ba5a34c1",
+            "comment": "Use Project.presetPackages for the release age exemption"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/lint-staged",
+            "commit": "64e19ab0477b7d085fdd9c9e75e0f814ba5a34c1",
+            "comment": "chore(deps): update dependency @langri-sha/projen-project to v0.33.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/lint-staged",
+            "commit": "64e19ab0477b7d085fdd9c9e75e0f814ba5a34c1",
+            "comment": "fix(deps): update dependency pnpm to v12.10.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/lint-staged",
+            "commit": "64e19ab0477b7d085fdd9c9e75e0f814ba5a34c1",
+            "comment": "chore(deps): update langri-sha projen toolchain"
+          }
+        ],
+        "none": [
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/lint-staged",
+            "commit": "64e19ab0477b7d085fdd9c9e75e0f814ba5a34c1",
+            "comment": "Opt into the default Worktrunk hooks"
+          },
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/lint-staged",
+            "commit": "64e19ab0477b7d085fdd9c9e75e0f814ba5a34c1",
+            "comment": "Add Node.js regression checks"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 07 Oct 2026 10:15:38 GMT",
       "version": "0.9.10",
       "tag": "@langri-sha/lint-staged_v0.9.10",

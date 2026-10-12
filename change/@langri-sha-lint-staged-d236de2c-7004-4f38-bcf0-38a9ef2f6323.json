@@ -1,7 +1,0 @@
-{
-  "type": "none",
-  "comment": "Add Node.js regression checks",
-  "packageName": "@langri-sha/lint-staged",
-  "email": "filip.dupanovic@gmail.com",
-  "dependentChangeType": "none"
-}

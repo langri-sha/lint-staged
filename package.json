@@ -1,6 +1,6 @@
 {
   "name": "@langri-sha/lint-staged",
-  "version": "0.9.10",
+  "version": "0.9.11",
   "description": "Shared lint-staged config that runs ESLint and Prettier before each commit",
   "keywords": [
     "eslint",

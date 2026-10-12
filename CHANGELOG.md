@@ -1,8 +1,24 @@
 # Change Log - @langri-sha/lint-staged
 
-<!-- This log was last generated on Wed, 07 Oct 2026 10:15:38 GMT and should not be manually modified. -->
+<!-- This log was last generated on Mon, 12 Oct 2026 18:34:50 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 0.9.11
+
+Mon, 12 Oct 2026 18:34:50 GMT
+
+### Patches
+
+- chore(deps): update dependency @langri-sha/projen-project to v0.36.0
+- fix(deps): update dependency pnpm to v12.11.0
+- fix(deps): update dependency pnpm to v12.10.1
+- Skip ESLint when every staged file is ignored (filip.dupanovic@gmail.com)
+- fix(deps): update dependency pnpm to v12.11.1
+- Use Project.presetPackages for the release age exemption (filip.dupanovic@gmail.com)
+- chore(deps): update dependency @langri-sha/projen-project to v0.33.0
+- fix(deps): update dependency pnpm to v12.10.0
+- chore(deps): update langri-sha projen toolchain
 
 ## 0.9.10
 
