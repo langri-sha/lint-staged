@@ -61,19 +61,8 @@ so the workflow is safe to rerun.
 
 `main` points at `src/index.js` in the repository, and `publishConfig` swaps
 `main` and `types` for `dist/`, which `prepublishOnly` builds. The tarball ships
-`src/` beside `dist/`, which the declaration maps point into, as every release
-from `langri-sha/projen` did.
+`src/` beside `dist/`, which the declaration maps point into.
 
 There is deliberately no `engines` field. Published from the root, it would bind
 consumers to the Node.js release this repository is developed on, so that lives
 in `devEngines`, where `actions/setup-node` reads it.
-
-## Provenance
-
-Extracted from `langri-sha/projen` at `6417104d` on 2026-10-01 with
-`git filter-repo --subdirectory-filter packages/lint-staged`. All 68 commits
-that touched the package keep their trees, authorship, dates and messages. The
-history reaches back to 2024-04-17, when the package started in
-`langri-sha/langri-sha.com`, which handed it to projen on 2026-07-20. Issue and
-pull request numbers in those older messages refer to the two source
-repositories.
