@@ -18,9 +18,9 @@ secrets are managed by `langri-sha/github-repos`.
 ```sh
 pnpm install
 pnpm exec projen                        # re-synthesize from .projenrc.ts
+node --test test/*.test.js              # regression tests
 pnpm tsc --build .                      # typecheck
 pnpm eslint . && pnpm prettier --check .
-node --test test/*.test.js               # regression tests
 pnpm change                             # write a change file
 ```
 
