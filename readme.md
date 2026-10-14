@@ -30,6 +30,12 @@ npx husky init
 echo "lint-staged" > .husky/pre-commit
 ```
 
+## Contributing
+
+See [CONTRIBUTING.md] in `langri-sha/github`.
+
+[contributing.md]:
+  https://github.com/langri-sha/github/blob/main/CONTRIBUTING.md
 [`lint-staged`]: https://github.com/lint-staged/lint-staged
 [eslint]: https://eslint.org/docs/latest/use/getting-started
 [husky]: https://typicode.github.io/husky/get-started.html
