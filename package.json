@@ -35,9 +35,9 @@
     "worktrunk:show": "projen worktrunk:show"
   },
   "devDependencies": {
-    "@langri-sha/eslint-config": "0.9.19",
+    "@langri-sha/eslint-config": "0.10.0",
     "@langri-sha/prettier": "0.4.11",
-    "@langri-sha/projen-project": "0.38.1",
+    "@langri-sha/projen-project": "0.38.2",
     "@langri-sha/tsconfig": "1.1.1",
     "beachball": "2.66.0",
     "eslint": "10.12.0",
