@@ -24,7 +24,12 @@ pnpm eslint . && pnpm prettier --check .
 pnpm change                             # write a change file
 ```
 
-Regression tests use the Node.js test runner and run in the Workspace workflow.
+CI (`workspace.yml` → `langri-sha/github` `check.yml`) runs ESLint, Prettier,
+the `package.json` checks, `tsc --build` and, on pull requests,
+`beachball check`. It fails when synthesized files drift from `.projenrc.ts` or
+the package lacks a change file. On Renovate pull requests it re-synthesizes and
+commits the result. Beside it, the `test` job in `workspace.yml` runs the
+regression tests with the Node.js test runner.
 
 ## Its own config
 
