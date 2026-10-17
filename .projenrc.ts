@@ -67,6 +67,7 @@ const project = new Project({
   codeowners: {
     '*': '@langri-sha',
   },
+  dagger: {},
   editorConfig: {},
   eslint: {},
   husky: {
