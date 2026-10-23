@@ -64,6 +64,11 @@ const project = new Project({
       ],
     },
   },
+  claude: {
+    settings: {
+      attribution: { commit: '', pr: '', sessionUrl: false },
+    },
+  },
   codeowners: {
     '*': '@langri-sha',
   },
