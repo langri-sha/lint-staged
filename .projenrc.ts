@@ -23,12 +23,7 @@ const project = new Project({
     repository: 'git+https://github.com/langri-sha/lint-staged.git',
     type: 'module',
 
-    devDeps: [
-      '@langri-sha/eslint-config@0.10.0',
-      '@langri-sha/prettier@0.4.11',
-      '@langri-sha/projen-project@*',
-      '@langri-sha/tsconfig@1.1.1',
-    ],
+    devDeps: ['@langri-sha/projen-project@*', '@langri-sha/tsconfig@1.1.1'],
     peerDeps: ['eslint@^10.4.0', 'lint-staged@^17.0.0', 'prettier@^3.0.0'],
     peerDependenciesMeta: {
       eslint: {
