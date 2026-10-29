@@ -173,8 +173,8 @@ importers:
         specifier: 0.4.11
         version: 0.4.11(prettier@3.9.9)
       '@langri-sha/projen-project':
-        specifier: 0.44.1
-        version: 0.44.1(@babel/core@7.29.7)(beachball@2.66.0(typescript@5.9.3))(eslint@10.13.0)(husky@9.1.7)(lint-staged@17.6.0)(prettier@3.9.9)(projen@0.104.1(constructs@10.8.1))(skills@1.7.4)(tsx@4.23.15)(typescript@5.9.3)
+        specifier: 0.44.2
+        version: 0.44.2(@babel/core@7.29.7)(beachball@2.66.0(typescript@5.9.3))(eslint@10.13.0)(husky@9.1.7)(lint-staged@17.6.0)(prettier@3.9.9)(projen@0.104.1(constructs@10.8.1))(skills@1.7.4)(tsx@4.23.15)(typescript@5.9.3)
       '@langri-sha/tsconfig':
         specifier: 1.1.1
         version: 1.1.1(typescript@5.9.3)
@@ -565,8 +565,8 @@ packages:
     peerDependencies:
       prettier: ^3.0.0
 
-  '@langri-sha/projen-project@0.44.1':
-    resolution: {integrity: sha512-SS+meLi64O9wGSm63g2FjZ5oENvb6kIavPewsUQbG9WFzBR2UwQiP50Mf0j6D7gy0YQdwRjBa0zTMd1aBFRXmA==}
+  '@langri-sha/projen-project@0.44.2':
+    resolution: {integrity: sha512-hWvU+ztZvrADRuG3Zci+qBpj25wzEWEF3fvGeG5tIjEjigFeEqpZkaOJX4zY0/YpmCY9TxCi5LTqDAyLMRC/vA==}
     peerDependencies:
       '@babel/core': ^8.0.0
       '@changesets/cli': ^3.0.0
@@ -1451,6 +1451,10 @@ packages:
   hookified@2.2.0:
     resolution: {integrity: sha512-p/LgFzRN5FeoD3DLS6bkUapeye6E4SI6yJs6KetENd18S+FBthqYq2amJUWpt5z0EQwwHemidjY5OqJGEKm5uA==}
 
+  hosted-git-info@10.1.1:
+    resolution: {integrity: sha512-DeOnSPAvOndYKfw075gt8yZzQ7S2hNztw34zBTfhIzLhmBTswIBg5/y+pqu/VD5cYWm5goAFTusDmUEmKZ0PEQ==}
+    engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
+
   html-entities@2.6.0:
     resolution: {integrity: sha512-kig+rMn/QOVRvr7c86gQ8lWXq+Hkv6CbAH1hLu+RG338StTpE8Z0b44SDVaqVu7HGKf27frdmUYEs9hTUX/cLQ==}
 
@@ -1702,6 +1706,10 @@ packages:
   loose-envify@1.4.0:
     resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
     hasBin: true
+
+  lru-cache@11.5.3:
+    resolution: {integrity: sha512-U4N8FgzmWxc8k1VH8Kr6lQg18U7Fjvby6wXHVRX/ZZ7IwWbRMgrRbP0Wrb5q5NVinryp4SQampHKdvtecItxUg==}
+    engines: {node: 20 || >=22}
 
   lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
@@ -2794,8 +2802,9 @@ snapshots:
       prettier: 3.9.9
       prettier-plugin-ini: 1.3.0
 
-  '@langri-sha/projen-project@0.44.1(@babel/core@7.29.7)(beachball@2.66.0(typescript@5.9.3))(eslint@10.13.0)(husky@9.1.7)(lint-staged@17.6.0)(prettier@3.9.9)(projen@0.104.1(constructs@10.8.1))(skills@1.7.4)(tsx@4.23.15)(typescript@5.9.3)':
+  '@langri-sha/projen-project@0.44.2(@babel/core@7.29.7)(beachball@2.66.0(typescript@5.9.3))(eslint@10.13.0)(husky@9.1.7)(lint-staged@17.6.0)(prettier@3.9.9)(projen@0.104.1(constructs@10.8.1))(skills@1.7.4)(tsx@4.23.15)(typescript@5.9.3)':
     dependencies:
+      hosted-git-info: 10.1.1
       projen: 0.104.1(constructs@10.8.1)
       projen-babel-config: 0.5.20(@babel/core@7.29.7)(projen@0.104.1(constructs@10.8.1))
       projen-beachball: 0.5.16(beachball@2.66.0(typescript@5.9.3))(projen@0.104.1(constructs@10.8.1))
@@ -3877,6 +3886,10 @@ snapshots:
 
   hookified@2.2.0: {}
 
+  hosted-git-info@10.1.1:
+    dependencies:
+      lru-cache: 11.5.3
+
   html-entities@2.6.0: {}
 
   human-signals@2.1.0: {}
@@ -4113,6 +4126,8 @@ snapshots:
   loose-envify@1.4.0:
     dependencies:
       js-tokens: 4.0.0
+
+  lru-cache@11.5.3: {}
 
   lru-cache@5.1.1:
     dependencies:
