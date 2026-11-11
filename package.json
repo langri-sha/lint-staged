@@ -38,7 +38,7 @@
   "devDependencies": {
     "@langri-sha/eslint-config": "0.13.0",
     "@langri-sha/prettier": "0.4.11",
-    "@langri-sha/projen-project": "0.53.0",
+    "@langri-sha/projen-project": "0.54.0",
     "@langri-sha/tsconfig": "3.0.0",
     "beachball": "2.66.0",
     "eslint": "10.14.0",
